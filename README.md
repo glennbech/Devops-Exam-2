@@ -1,3 +1,8 @@
+##2a
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/ceca8e16-b139-412f-91ff-b22d0942cb2e)
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/9326e817-2ba8-40f0-9a8a-7642546372d9)
+
+
 # Eksamen PGR301 2023
 
 ## Krav til leveransen
