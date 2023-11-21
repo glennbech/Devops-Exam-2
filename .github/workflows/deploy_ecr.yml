@@ -27,7 +27,7 @@ jobs:
     - name: Build and Push Docker Image
       if: github.ref == 'refs/heads/main'
       env:
-        ECR_REPO_URI: ${{ secrets.ECR_REPO_URI }}
+        ECR_REPO_URI: kandidat2028
         COMMIT_HASH: $(git rev-parse --short HEAD)
       run: |
         echo $ECR_REPO_URI
