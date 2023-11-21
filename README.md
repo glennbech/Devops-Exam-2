@@ -4,7 +4,31 @@
 
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/9326e817-2ba8-40f0-9a8a-7642546372d9)
 
+## 2b
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/51bf8897-cb53-40c6-a967-0bff618d9a98)
+og den nyeste pushen får taggen "Latest":
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/2b414226-2070-4664-923e-ce32a5bfb00d)
+todo: fikse så tag macther commit
 
+## 5
+### A
+Kontinuerlig intergrasjon(ci) er praktisen innen utvikling hvor utviklere kan integrere kodenendringer til et repository gjennom en versjonskontroll, vanligvis git.
+På denne måten kan man kontinuerlig integrere og test koden hver gang det blir gjort endringer gjennom automatiserte verktøy.
+
+<strong>Fordeler ved bruk av ci:</strong>
+Rask feiloppdagelse:
+ved bruk av CI vil feil og problemer oppdages tidligere automatisk. Da oppdager man også om det funker på en annen maskin enn sin egen.
+Økt produktivitet:
+Siden CI tar seg å automatisere bygging testing, og deployment, vil utviklere ha mulighet til å fokusere arbeidet sitt på andre ting.
+På denne måten vil også ny funksjonalitet også bli levert raskere.
+
+<strong>Hvordan jobber man med CI i praksis?</strong>
+I et github repo er CI ofte tilknyttet bruket av GitHub actions, som kan foreksempel hete ".github/workflows/deploy_ecr.yml".
+todo: skriv mer her
+
+
+
+todo: slett dette når ferdig
 # Eksamen PGR301 2023
 
 ## Krav til leveransen
