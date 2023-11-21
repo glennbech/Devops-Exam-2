@@ -1,4 +1,4 @@
-name: Build and Publish ECR image
+name: Build and Publish ECR to ECR
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Set up AWS CLI
+    - name: Configure Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
