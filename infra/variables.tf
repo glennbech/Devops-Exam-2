@@ -13,3 +13,8 @@ variable "aws_apprunner_role"{
     description = "iam role name"
     type = string
 }
+
+variable "ecr_repo"{
+    description = "url to ecr_repo"
+    type = string
+}

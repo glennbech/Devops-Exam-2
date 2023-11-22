@@ -3,8 +3,8 @@ resource "aws_apprunner_service" "service" {
 
   instance_configuration {
     instance_role_arn = aws_iam_role.role_for_apprunner_service.arn
-    cpu = 256
-    memory = 1024
+    #cpu = 256
+    #memory = 1024
   }
 
   source_configuration {
@@ -15,7 +15,7 @@ resource "aws_apprunner_service" "service" {
       image_configuration {
         port = "8080"
       }
-      image_identifier      = "244530008913.dkr.ecr.eu-west-1.amazonaws.com/kjell:latest"
+      image_identifier      = "${var.ecr_repo}:latest"
       image_repository_type = "ECR"
     }
     auto_deployments_enabled = true
