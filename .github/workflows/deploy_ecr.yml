@@ -51,7 +51,7 @@ jobs:
       working-directory: ./infra
       run: |
         export TF_VAR_service_name=2018terraform
-        export TF_VAR_aws_ecr_repo=244530008913.dkr.ecr.eu-west-1.amazonaws.com/kandidat2018:latest
+        export TF_VAR_ecr_repo=244530008913.dkr.ecr.eu-west-1.amazonaws.com/kandidat2018:latest
         export TF_VAR_aws_apprunner_role=2018_iam_role
         export TF_VAR_aws_iam_policy=2018_iam_policy
         
