@@ -10,6 +10,32 @@ og den nyeste pushen får taggen "Latest":
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/2b414226-2070-4664-923e-ce32a5bfb00d)
 todo: fikse så tag macther commit
 
+## 3a
+```
+variable "service_name" {
+    description = "Name of AppRunner service"
+    type = string
+    default = "2018_service"
+}
+
+variable "aws_iam_policy"{
+    description = "IAM policy name"
+    type = string
+}
+
+variable "aws_apprunner_role"{
+    description = "iam role name"
+    type = string
+}
+```
+```
+instance_configuration {
+    instance_role_arn = aws_iam_role.role_for_apprunner_service.arn
+    cpu = 256
+    memory = 1024
+  }
+```
+
 ## 5
 ### A
 Kontinuerlig intergrasjon(ci) er praktisen innen utvikling hvor utviklere kan integrere kodenendringer til et repository gjennom en versjonskontroll, vanligvis git.
