@@ -48,7 +48,7 @@ jobs:
       uses: hashicorp/setup-terraform@v1
          
     - name: Run Terraform
-      working-directory: .infra
+      working-directory: ./infra
       run: |
         export TF_VAR_aws_apprunner_role=2018_iam_role
         export TF_VAR_aws_iam_policy=2018_iam_policy
