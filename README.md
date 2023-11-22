@@ -24,7 +24,10 @@ På denne måten vil også ny funksjonalitet også bli levert raskere.
 
 <strong>Hvordan jobber man med CI i praksis?</strong>
 I et github repo er CI ofte tilknyttet bruket av GitHub actions, som kan foreksempel hete ".github/workflows/deploy_ecr.yml".
-todo: skriv mer her
+Deretter, kan utviklere jobbe parallelt på forkjellige grener, og hver gang det blir gjort et push til repoet, vil CI-workflowen automatisk kjøres
+og sikre at det ikke ødelegger eksiterende funksjonalitet.
+
+
 
 
 
