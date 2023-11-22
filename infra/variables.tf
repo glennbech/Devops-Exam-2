@@ -1,7 +1,6 @@
 variable "service_name" {
     description = "Name of AppRunner service"
     type = string
-    default = "2018_service"
 }
 
 variable "aws_iam_policy"{
