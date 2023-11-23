@@ -1,3 +1,4 @@
+
 name: Publish Python AWS SAM
 
 on: [push]
@@ -26,5 +27,6 @@ jobs:
 
     - name: Deploy SAM application
       if: github.ref == 'refs/heads/main'
-      run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name Kandidat2018 --capabilities CAPABILITY_IAM --resolve-s3
+      run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name kandidat2018 --capabilities CAPABILITY_IAM --resolve-s3
       working-directory: ./kjell
+    
