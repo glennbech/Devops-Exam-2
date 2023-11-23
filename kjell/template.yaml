@@ -25,7 +25,7 @@ Resources:
       Runtime: python3.9
       Enviroment:
         Variables:
-          BucketName: !Ref ImageS3Bucket
+          BUCKET_NAME: !Ref ImageS3Bucket
       Architectures:
         - x86_64
       Policies:
