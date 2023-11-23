@@ -16,7 +16,11 @@ s3_client = boto3.client('s3', region_name='eu-west-1')
 rekognition_client = boto3.client('rekognition', region_name='eu-west-1')
 
 # Oppgave 1A
-BUCKET_NAME = "kjellsimagebucker"
+try:
+    BUCKET_NAME = os.environ.get['BUCKET_NAME']
+except KeyError:
+    raise ValueError("BUCKET_NAME must be provided")
+
 
 def lambda_handler(event, context):
 
