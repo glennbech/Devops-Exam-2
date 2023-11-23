@@ -1,4 +1,21 @@
-##2a
+## 1a
+Her må følgende secrets være konfiguret for å kunne kjøre github actions: 
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+
+etter mye surr, fordi jeg klarte å skrive Environment feil i template.yaml, klarte jeg etterhvert å få den til å kjøre:
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/0b01fe14-b893-4ae5-9ea4-15bb0f125d60)
+
+## 1b
+´´´
+FROM python:3.9
+WORKDIR /app
+COPY . .
+RUN pip install -r requirements.txt
+CMD ["python3","./app.py"]
+´´´
+
+## 2a
 
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/ceca8e16-b139-412f-91ff-b22d0942cb2e)
 
@@ -7,15 +24,16 @@
 ## 2b
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/51bf8897-cb53-40c6-a967-0bff618d9a98)
 og den nyeste pushen får taggen "Latest":
-![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/2b414226-2070-4664-923e-ce32a5bfb00d)
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/a6529607-a0d2-4992-b936-79ff89fa6314)
+
 todo: fikse så tag macther commit
 
 ## 3a
+satt opp følgende variabler:
 ```
 variable "service_name" {
     description = "Name of AppRunner service"
     type = string
-    default = "2018_service"
 }
 
 variable "aws_iam_policy"{
@@ -27,14 +45,25 @@ variable "aws_apprunner_role"{
     description = "iam role name"
     type = string
 }
+
+variable "ecr_repo"{
+    description = "url to ecr_repo"
+    type = string
+}
 ```
+
+satt opp følgende for å prøve å endre cpu og memory konfigurasjonen, men hadde problemer med å kjøre terraform apply på oppgave 3b, så endte opp med å måtte kommentere det ut.
 ```
 instance_configuration {
     instance_role_arn = aws_iam_role.role_for_apprunner_service.arn
-    cpu = 256
-    memory = 1024
+    #cpu = 256
+    #memory = 1024
   }
 ```
+
+## 3b
+
+
 
 ## 5
 ### A
