@@ -12,7 +12,7 @@ Resources:
 
   Bucket:
     ImageS3Bucket:
-      Type: AWS::S3::Bucket
+      Type: "AWS::S3::Bucket"
       Properties:
         BucketName: "kandidat2018"
       
