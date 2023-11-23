@@ -7,13 +7,13 @@ etter mye surr, fordi jeg klarte å skrive Environment feil i template.yaml, kla
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/0b01fe14-b893-4ae5-9ea4-15bb0f125d60)
 
 ## 1b
-´´´
+```
 FROM python:3.9
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
 CMD ["python3","./app.py"]
-´´´
+````
 
 ## 2a
 
