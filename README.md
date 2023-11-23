@@ -98,6 +98,9 @@ og sikre at det ikke ødelegger eksiterende funksjonalitet.
 
 ## 5b
 
+
+
+
 ## 5c
 
 todo: slett dette når ferdig
