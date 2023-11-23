@@ -62,11 +62,25 @@ instance_configuration {
 ```
 
 ## 3b
+konfigurer variabel-verdier her:
+```
+export TF_VAR_service_name=apprunner_2018
+        export TF_VAR_ecr_repo=244530008913.dkr.ecr.eu-west-1.amazonaws.com/kandidat2018
+        export TF_VAR_aws_apprunner_role=2018_iam_role
+        export TF_VAR_aws_iam_policy=2018_iam_policy
+```
+lot være å sette default verdier i variables.tf, så dersom man kjører terraform apply, kan man sette inn sine egene verdier.
+
+Ikke de beste commit meldingene akkurat, men her fikk jeg workflow filen til å kjøre:
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/16adda43-c9d3-460f-a085-a720ab3992e2)
+
+og her man at apprunner servicen er oppe å kjører:
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/89f6b791-fcf4-4295-978c-0463550195b5)
 
 
 
-## 5
-### A
+## 5a
+
 Kontinuerlig intergrasjon(ci) er praktisen innen utvikling hvor utviklere kan integrere kodenendringer til et repository gjennom en versjonskontroll, vanligvis git.
 På denne måten kan man kontinuerlig integrere og test koden hver gang det blir gjort endringer gjennom automatiserte verktøy.
 
@@ -82,9 +96,9 @@ I et github repo er CI ofte tilknyttet bruket av GitHub actions, som kan forekse
 Deretter, kan utviklere jobbe parallelt på forkjellige grener, og hver gang det blir gjort et push til repoet, vil CI-workflowen automatisk kjøres
 og sikre at det ikke ødelegger eksiterende funksjonalitet.
 
+## 5b
 
-
-
+## 5c
 
 todo: slett dette når ferdig
 # Eksamen PGR301 2023
