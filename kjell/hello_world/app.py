@@ -17,7 +17,7 @@ rekognition_client = boto3.client('rekognition', region_name='eu-west-1')
 
 # Oppgave 1A
 try:
-    BUCKET_NAME = os.environ.get['BUCKET_NAME']
+    BUCKET_NAME = os.environ['BUCKET_NAME']
 except KeyError:
     raise ValueError("BUCKET_NAME must be provided")
 
