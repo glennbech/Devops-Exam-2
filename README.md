@@ -15,6 +15,9 @@ RUN pip install -r requirements.txt
 CMD ["python3","./app.py"]
 ````
 
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/92b7599e-49d8-44cb-9c2d-902e74752ed9)
+
+
 ## 2a
 
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/ceca8e16-b139-412f-91ff-b22d0942cb2e)
@@ -97,7 +100,49 @@ Deretter, kan utviklere jobbe parallelt på forkjellige grener, og hver gang det
 og sikre at det ikke ødelegger eksiterende funksjonalitet.
 
 ## 5b
+<strong>SCRUM/smidig</strong>
+SCRUM er en smidig metodikk for utviklere. Den baserer seg på korte sprinter, en til noen uker langer, hvor alle har utdelt sin oppgave som de skal få undagjort innen sprinten er over.
+Flere ganger i løpet av sprinten, har man møter hvor man snakker om det man har gjort, og om man har støtt på noen problemer, her kan man få hjelp av medkolegaer om nødvendig.
+Når sprinter er over, ser man godt om man fikk gjort arbeidet som planlagt, og en ny sprint starter.
 
+Her er noen av hovedtrekkene til SCRUM: 
+- Det er vanlig å ha roller i et SCRUM prosjekt. Det er blandt annet en SCRUMmaster, product owner og et team som utfører arbeidet.
+-SCRUM har et tett arbeid med product owner, noe som fremmer kontinuelig tilpassing til prosjektet gjennom sprintene.
+
+Her er noen av forledelene til SCRUM:
+- SCRUM kan motivere lag til å jobbe raskere og mer effektivt
+- Store prosjekter kan deles inn i mindre sprints, noe som gir bedre oversikt over prosjektet, tillater effektiv bruk av tid og resusser, og man får et bedre falkeblikk over hva som er gjort, og hva som må gjøres gjennom hyppige møter.
+-SCRUM oppmunterer tungt til samarbeid. Parkoding og code review er noen av teknikkene som brukes, noe som kan forbedre kodeferdighetene til den enkelte utvikleren. Det er også vanlig å hjelpe hverandre hvis noen sitter fast, eller er sikker på hvor de skal gå videre.
+-Med tett tilknytting til product owner og hyppige levereringer, så blir kunden ofte mer fornøyd med sluttproduktet.
+  
+
+Her er noen av utfordringene til SCRUM:
+- Prosjektet kan bli krevende dersom noen av medlemmene ikke er så erfaren.
+- Å ta i bruk SCRUM i større grupper kan være utfordernde
+- Avhengig av teamets selvstyringsevne, og motivasjon.
+
+<strong>Devops</strong>
+
+Her er noen av hovedtrekkene til Devops:
+-Kontinuerlig integrasjon (CI): Automaserting av bygging, testing og deployment.
+-Automasering av oppgaver som ofte må gjøres flere ganger, for å oppnå mer effektive prosseser.
+- Feedback er også et viktig prinsipp i devops. Det baserer seg på kontinuerlig innsamling av tilbakemeldinger fra systemet.
+
+Her er noen av forledelene til Devops:
+- Raskere: etter man har satt opp et script for devops riktig engang, vil det bli raskere å bygge og deploye senere.
+- Høyere kvalitet: med devops i bruk kan man ha en sikkerhetsnett for å oppdage feil tidlig hvis det er satt opp riktig. på denne måten blir det mindre feil i koden, og man har et bedre produkt
+- Med bruk av Feedback kan man kontinuerlig overvåke programmet, og gir mulighet til å oppdage problemer med engang.
+  
+Her er noen av utfordringene til Devops:
+- Høye kostader: å ta ibruk devops kan ofte være dyrt for bedrifter.
+- Ingen standar: det finnes ingen stadar måte å sette opp devops på, det baserer seg mer på hva man er ute etter. Derfor kan devops ofte bli komplisert.
+- avhengighet av automatisering: Det kan fort skje at man stoler blindt på automatiseringen, dette kan være en risiko dersom det skjer noe feil, men tilbakemeldinge sier ikke noe om det, så trur man at alt er som det skal være, når noe egentlig har skjedd feil.
+
+<strong>sammenligning</strong>
+-Programvarekvalitet: Scrum har fokus på hyppige leveranser, og å tilpasse seg til kundens ønske, som øker til mer fornøyd kunde. Hos devops øker kvaliteten med automatisering av tester og deployment, og at man har mulighet til overvåking for å raskere oppdage problemer.
+-Leveransetempo: ved bruk av smidig med hyppige leveranser, og et klart fokus på hva oppgaven din er kan det endelige produktet komme bli raskere ferdig. Devops kan være ideelt for orginsasjoner som ønsker raske leveranser ofte, slik at man i høy grad slipper komplekse rempetetivitet av demployment.
+- Devops fokkuserer på programvare levering, mens scrum fokuserer mest på programvare utvikling.
+Ofte vil det beste være å ta ibruk en kombinasjon av begge deler, hvor man bruker SCRUM for utvikliningen, og tar ibruk devops for å auutomatisere levering av programvaret for å oppnå mest effektiv bruk av ressuser.
 
 
 
