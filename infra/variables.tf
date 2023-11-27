@@ -18,13 +18,13 @@ variable "ecr_repo"{
     type = string
 }
 
-variable "dashboard_name"{
-    description = "name of the dashbboard"
-    type = string
-    default = "My_dashboard"
-}
+#variable "dashboard_name"{
+#    description = "name of the dashbboard"
+#    type = string
+#    default = "My_dashboard"
+#}
 
-variable "alert_email"{
-    description = "email the alarm gets sent to"
-    type = string
-}
+#variable "alert_email"{
+#    description = "email the alarm gets sent to"
+#    type = string
+#}
