@@ -97,7 +97,44 @@ Ikke de beste commit meldingene akkurat, men her fikk jeg workflow filen til å 
 og her man at apprunner servicen er oppe å kjører:
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/89f6b791-fcf4-4295-978c-0463550195b5)
 
+## 4
+Endte opp med å spare denne oppgaven til slutt, og har desverre ikke tid til å gjøre den orgentlig.
+En ide kunne vært å ha "total violations" som metric, og gi alarm dersom det blir for mange.
+Bare sånn at jeg får levert noe på denne oppgaven, så er her en veldig uferdig versjon av dashboard.tf:
+```
+#resource "aws_cloudwatch_dashboard" "main" {
+#  dashboard_name = var.dashboard_name
+#  dashboard_body = <<DASHBOARD
+#{
+#  "widgets": [
+#    {
+ #     "type": "metric",
+  #    "x": 0,
+  #    "y": 0,
+  #    "width": 12,
+  #    "height": 6,
+  #    "properties": {
+  #      "metrics": [
+#          [
+#            "var.dashboard_name",
+#          ]
+#        ],
+#        "period": 300,
+#        "stat": "sum",
+#        "region": "eu-west-1",
+#        "title": "total violations"
+#      }
+#    }
+#  ]
+#}
+#DASHBOARD
+#}
 
+#module "alarm"{
+#  source = "./alarm_module"
+#  alarm_email = var.alert_email
+#}
+```
 
 ## 5a
 
