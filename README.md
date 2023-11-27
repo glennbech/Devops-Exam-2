@@ -159,3 +159,4 @@ Ofte vil det beste være å ta ibruk en kombinasjon av begge deler, hvor man bru
 <strong>-Feilrapportering/kundeservice og brukerundersøkelser:</strong> Det kan også være lurt å ha et kundeservice system/avdeling som tar imot henvendelser fra kunder dersom det skulle oppstå noen problemer/spørsmål til den nye funksjonaliteten. Brukerundersøkelser etter funksjonaliteten har vært ute en stund kan hjelpe på å se om den fungerer som tiltenkt, og om kundene syntes den er brukervennlig nok.
 
 
+
