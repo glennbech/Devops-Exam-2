@@ -26,6 +26,6 @@ resource "aws_cloudwatch_dashboard" "main" {
 DASHBOARD
 }
 
-module "alarm"{
+#module "alarm"{
     
-}
+#}
