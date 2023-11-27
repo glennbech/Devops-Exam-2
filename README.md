@@ -148,9 +148,12 @@ Ofte vil det beste være å ta ibruk en kombinasjon av begge deler, hvor man bru
 
 ## 5c
 
-<strong>Kontinuerlig overvåking i produksjon:</strong> Implementer et system (cloudwatch) som analyserer brukeratferden og hvordan ytelsen er i produksjon. Da får man informasjon om hvordan brukere faktisk utnytter seg av den nye funksjonaliteten, og om den funngerer slikt som tiltenkt, og om det er noen eventuellt problemer. 
-<strong>Deployments til et testmiljø:</strong> før man lanserer funksjonaliteten til produksjon er det lurt å teste det på et testmiljø først. Her kan man få bedre innsikt om det er noen feil, og om det er muligheter for å gjøre det mer brukervennlig
-<strong>Automatiserte tester:</strong> implementer automatiserte tester som dekker den nye funksjonaliteten som har blitt lagd.
-<strong>Feilrapportering/kundeservice og brukerundersøkelser:</strong> Det kan også være lurt å ha et kundeservice system/avdeling som tar imot henvendelser fra kunder dersom det skulle oppstå noen problemer/spørsmål til den nye funksjonaliteten. Brukerundersøkelser etter funksjonaliteten har vært ute en stund kan hjelpe på å se om den fungerer som tiltenkt, og om kundene syntes den er brukervennlig nok.
+<strong>-Kontinuerlig overvåking i produksjon:</strong> Implementer et system (cloudwatch) som analyserer brukeratferden og hvordan ytelsen er i produksjon. Da får man informasjon om hvordan brukere faktisk utnytter seg av den nye funksjonaliteten, og om den funngerer slikt som tiltenkt, og om det er noen eventuellt problemer. 
+
+<strong>-Deployments til et testmiljø:</strong> før man lanserer funksjonaliteten til produksjon er det lurt å teste det på et testmiljø først. Her kan man få bedre innsikt om det er noen feil, og om det er muligheter for å gjøre det mer brukervennlig
+
+<strong>-Automatiserte tester:</strong> implementer automatiserte tester som dekker den nye funksjonaliteten som har blitt lagd.
+
+<strong>-Feilrapportering/kundeservice og brukerundersøkelser:</strong> Det kan også være lurt å ha et kundeservice system/avdeling som tar imot henvendelser fra kunder dersom det skulle oppstå noen problemer/spørsmål til den nye funksjonaliteten. Brukerundersøkelser etter funksjonaliteten har vært ute en stund kan hjelpe på å se om den fungerer som tiltenkt, og om kundene syntes den er brukervennlig nok.
 
 
