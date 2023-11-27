@@ -27,5 +27,6 @@ DASHBOARD
 }
 
 #module "alarm"{
-    
+#  source = "./alarm_module"
+#  alarm_email = var.alert_email
 #}
