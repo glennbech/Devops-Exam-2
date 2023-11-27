@@ -16,6 +16,8 @@ CMD ["python3","./app.py"]
 ````
 
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/92b7599e-49d8-44cb-9c2d-902e74752ed9)
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/0fb1d50e-1261-458d-a234-759dcf87f5f9)
+
 
 
 ## 2a
