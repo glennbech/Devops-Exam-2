@@ -28,11 +28,11 @@ CMD ["python3","./app.py"]
 
 ## 2b
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/51bf8897-cb53-40c6-a967-0bff618d9a98)
+
 og den nyeste pushen får taggen "Latest":
+
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/053d2e5c-20d8-4053-bab0-cc708d919dd3)
 
-
-todo: fikse så tag macther commit
 
 ## 3a
 satt opp følgende variabler:
