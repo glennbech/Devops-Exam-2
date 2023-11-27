@@ -27,7 +27,8 @@ CMD ["python3","./app.py"]
 ![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/9326e817-2ba8-40f0-9a8a-7642546372d9)
 
 ## 2b
-![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/51bf8897-cb53-40c6-a967-0bff618d9a98)
+![image](https://github.com/Matsjohaa/Devops-Exam/assets/97464729/01a21e43-0835-4bad-833d-c7f798a996e8)
+
 
 og den nyeste pushen får taggen "Latest":
 
