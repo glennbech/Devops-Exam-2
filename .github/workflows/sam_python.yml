@@ -1,11 +1,7 @@
-
 name: Build and Publish AWS SAM
 
 on:
   push:
-    branches:
-      - main
-
 
 jobs:
   deploy:
